@@ -522,9 +522,6 @@ Car * loadDataFromFile(FILE *inFile, Car* Available, Car* Rented,Car* AtWkshop, 
     return NULL;
 }
 
-//IMPORTANT NOTE; I watched a youtube video to help guide me on writing this function
-//video: https://www.youtube.com/watch?v=29OANTQ826Y
-
 //Adds to an already sorted list
 void LowestFirst (Car ** list, Car * data){
 
